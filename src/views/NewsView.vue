@@ -1,0 +1,196 @@
+<template>
+  <v-main>
+    <v-carousel>
+      <v-carousel-item
+        src="https://erp.mju.ac.th/picture/banner/26f811d39dd044cf96a860fcdab87a3d.jpg"
+        cover
+      ></v-carousel-item>
+
+      <v-carousel-item
+        src="https://erp.mju.ac.th/picture/banner/ddd93215f9244ac6926b79d623aba5fc.jpg"
+        cover
+      ></v-carousel-item>
+
+      <v-carousel-item
+        src="https://erp.mju.ac.th/picture/banner/f49ae4dedfb641c083d6fefe1bac01c4.jpg"
+        cover
+      ></v-carousel-item>
+
+      <v-carousel-item
+        src="https://erp.mju.ac.th/picture/banner/4647e6fc8c2444f1a9ab26e4ab6de722.jpeg"
+        cover
+      ></v-carousel-item>
+    </v-carousel>
+    <v-container>
+        <h1 class="text-center">ข่าวสารและกิจกรรม</h1><br/>
+      <v-row>
+        <v-col v-for="n in 1" :key="n" cols="4" >
+          <v-card
+            ><v-img
+              src="https://erp.mju.ac.th/picture/information/17802cb6ddf44339a02e696ba2644662s.jpg"
+              height="200px"
+              cover
+            ></v-img>
+            <v-card-title>บริหารธุรกิจม.แม่โจ้ จัดโตยฮีตตามฮอย” </v-card-title>
+            <v-card-action
+              ><v-btn
+                href="https://erp.mju.ac.th/informationDetail.aspx?newsId=4999&lang="
+              >
+                ดูเพิ่มเติม</v-btn
+              ></v-card-action
+            ></v-card
+          >
+          <v-card
+            ><v-img
+              src="https://erp.mju.ac.th/picture/information/2968c126140d4912916dcb8220cc21e9s.jpg"
+              height="200px"
+              cover
+            ></v-img>
+            <v-card-title
+              >ร่วมประชุมเตรียมความพร้อมการรับเสด็จในพิธีพระราชทานปริญญาบัตร</v-card-title
+            >
+            <v-card-action
+              ><v-btn
+                href="https://erp.mju.ac.th/informationDetail.aspx?newsId=4993&lang=th"
+              >
+                ดูเพิ่มเติม</v-btn
+              ></v-card-action
+            ></v-card
+          >
+          <v-card
+            ><v-img
+              src="https://erp.mju.ac.th/picture/information/5f2bab5166f34fff8ad1da231371e4a0s.jpg"
+              height="200px"
+              cover
+            ></v-img>
+            <v-card-title
+              >องค์การบริหารส่วนจังหวัดนครราชสีมา ศึกษาดูงาน “ระบบการทำฟาร์ม
+              เกษตรสมัยใหม่ (4.0)”</v-card-title
+            >
+            <v-card-action
+              ><v-btn
+                href="https://erp.mju.ac.th/informationDetail.aspx?newsId=4992&lang=th"
+              >
+                ดูเพิ่มเติม</v-btn
+              ></v-card-action
+            ></v-card
+          >
+        </v-col>
+        <v-col v-for="n in 1" :key="n" cols="4">
+          <v-card
+            ><v-img
+              src="https://erp.mju.ac.th/picture/information/8e7e15cf4b4d40c783ef2c1a562cba32s.jpg"
+              height="200px"
+              cover
+            ></v-img>
+            <v-card-title
+              >ม.แม่โจ้ร่วมมือกับเอกชน วิจัยด้านเทคโนโลยีนวัตกรรมการเกษตร
+            </v-card-title>
+            <v-card-action
+              ><v-btn
+                href="https://erp.mju.ac.th/informationDetail.aspx?newsId=4996&lang=th"
+              >
+                ดูเพิ่มเติม</v-btn
+              ></v-card-action
+            ></v-card
+          >
+          <v-card
+            ><v-img
+              src="https://erp.mju.ac.th/picture/information/b10a3cb20aaa4d2bba2b6109c417d126s.jpg"
+              height="200px"
+              cover
+            ></v-img>
+            <v-card-title
+              >มหาวิทยาลัยแม่โจ้
+              เข้าร่วมการแข่งขันกีฬามหาวิทยาลัยแห่งประเทศไทย</v-card-title
+            >
+            <v-card-action
+              ><v-btn
+                href="https://erp.mju.ac.th/informationDetail.aspx?newsId=4994&lang=th"
+              >
+                ดูเพิ่มเติม</v-btn
+              ></v-card-action
+            ></v-card
+          >
+          <v-card
+            ><v-img
+              src="https://erp.mju.ac.th/picture/information/b391fe37b80b4780979499dc2dc6e57fs.jpg"
+              height="200px"
+              cover
+            ></v-img>
+            <v-card-title
+              >อบต.คลองปาง จ.ตรัง เข้าศึกษาดูงาน อพ.สธ.-มจ.</v-card-title
+            >
+            <v-card-action
+              ><v-btn
+                href="https://erp.mju.ac.th/informationDetail.aspx?newsId=4987&lang=th"
+              >
+                ดูเพิ่มเติม</v-btn
+              ></v-card-action
+            ></v-card
+          >
+        </v-col>
+        <v-col v-for="n in 1" :key="n" cols="4">
+          <v-card
+            ><v-img
+              src="https://erp.mju.ac.th/picture/information/8eed863f1f854a6494270633c689e00as.jpg"
+              height="200px"
+              cover
+            ></v-img>
+            <v-card-title
+              >รองประธานสภานิติบัญญัติไต้หวัน เยือน ม.แม่โจ้</v-card-title
+            >
+            <v-card-action
+              ><v-btn
+                href="https://erp.mju.ac.th/informationDetail.aspx?newsId=4995&lang=th"
+              >
+                ดูเพิ่มเติม</v-btn
+              ></v-card-action
+            ></v-card
+          >
+          <v-card
+            ><v-img
+              src="https://erp.mju.ac.th/picture/information/f5f73ac9d39545ecace913273f936689s.jpg"
+              height="200px"
+              cover
+            ></v-img>
+            <v-card-title
+              >คณะสถาปัตย์ฯ ม.แม่โจ้ จัดกิจกรรมอบรมเชิงปฏิบัติการให้ความรู้
+              “สำนักงานสีเขียว”</v-card-title
+            >
+            <v-card-action
+              ><v-btn
+                href="https://erp.mju.ac.th/informationDetail.aspx?newsId=4991&lang=th"
+              >
+                ดูเพิ่มเติม</v-btn
+              ></v-card-action
+            ></v-card
+          >
+          <v-card
+            ><v-img
+              src="https://erp.mju.ac.th/picture/information/217499d0c12c42729ca6696f57fa8207s.jpg"
+              height="200px"
+              cover
+            ></v-img>
+            <v-card-title
+              >ม.แม่โจ้ จัดพิธีทำบุญตักบาตร
+              บำเพ็ญกุศลถวายพระพรแด่สมเด็จพระเจ้าลูกเธอ เจ้าฟ้าพัชรกิติยาภา
+              นเรนทิราเทพยวดี กรมหลวงราชสาริณีสิริพัชร มหาวัชรราชธิดา
+              ให้ทรงหายจากพระอาการประชวร</v-card-title
+            >
+            <v-card-action
+              ><v-btn
+                href="https://erp.mju.ac.th/informationDetail.aspx?newsId=4988&lang="
+              >
+                ดูเพิ่มเติม</v-btn
+              ></v-card-action
+            ></v-card
+          >
+        </v-col>
+      </v-row>
+    </v-container>
+  </v-main>
+</template>
+
+<script>
+</script>
